@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9e3b8f2c-2c9f-40cb-bde0-583e11619e88" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/a9/0f2cbdb2/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateHelperFunctions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AA41805F-A91A-490C-B490-F3285F41592B/bc/a029cae8/SphericalHarmonicsL2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hybrid/Hybrid.asmdef" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/MasterNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hybrid/LODGroupExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hybrid/TryGetAmbient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2791C1CD-BFD9-43F6-ABA0-F758C93CCC78/6c/963caa55/NativeArray`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hybrid/FrustumPlanes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AA41805F-A91A-490C-B490-F3285F41592B/14/e3964202/MaterialPropertyBlock.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hybrid/AABB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.1.0/Unity.Mathematics/float3.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/AdditionalIncludesHelper.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/BatchRendererGroupTest2_.cs" />
+      <option value="$PROJECT_DIR$/Assets/BatchRendererGroupTest2.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BatchRender.cs" />
+      <option value="$PROJECT_DIR$/Assets/Hybrid/AABB.cs" />
+      <option value="$PROJECT_DIR$/Assets/Hybrid/FrustumPlanes.cs" />
+      <option value="$PROJECT_DIR$/Assets/Hybrid/LODGroupExtensions.cs" />
+      <option value="$PROJECT_DIR$/Assets/ASEShader.shader" />
+      <option value="$PROJECT_DIR$/Assets/Shader_BuildingAO.shader" />
+      <option value="$PROJECT_DIR$/Assets/Shader_BuidingPBR.shader" />
+      <option value="$PROJECT_DIR$/Assets/Res/Shader_BuidingPBR.shader" />
+      <option value="$PROJECT_DIR$/Assets/Res/ASEShader(6).shader" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1gdZSVVHwMub60Ge5wUeSiLtWsU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.48069188" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30008045" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.36432162" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Library/PackageCache" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="open Hybrid_Lab" />
+      <command value="open UMAProject" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e3b8f2c-2c9f-40cb-bde0-583e11619e88" name="Default Changelist" comment="" />
+      <created>1598446432236</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598446432236</updated>
+      <workItem from="1598446441185" duration="5252000" />
+      <workItem from="1598509885570" duration="244000" />
+      <workItem from="1598510241595" duration="9547000" />
+      <workItem from="1598614517687" duration="1048000" />
+      <workItem from="1599185693748" duration="24000" />
+      <workItem from="1599552617502" duration="23629000" />
+      <workItem from="1600239667383" duration="6572000" />
+      <workItem from="1600314937258" duration="22790000" />
+      <workItem from="1601200383556" duration="73000" />
+      <workItem from="1605772802185" duration="26064000" />
+      <workItem from="1606707827030" duration="14016000" />
+      <workItem from="1611124727791" duration="6271000" />
+      <workItem from="1611215945193" duration="2230000" />
+      <workItem from="1611560094001" duration="3360000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/MasterNodeDataCollector.cs</url>
+          <line>625</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\MasterNodeDataCollector.cs" initialLine="623">
+            <startOffsets>
+              <option value="21986" />
+            </startOffsets>
+            <endOffsets>
+              <option value="22023" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/MasterNodeDataCollector.cs</url>
+          <line>617</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\MasterNodeDataCollector.cs" initialLine="617">
+            <startOffsets>
+              <option value="21525" />
+            </startOffsets>
+            <endOffsets>
+              <option value="21657" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateHelperFunctions.cs</url>
+          <line>1097</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateHelperFunctions.cs" initialLine="1097">
+            <startOffsets>
+              <option value="41278" />
+            </startOffsets>
+            <endOffsets>
+              <option value="41385" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPassMasterNode.cs</url>
+          <line>2034</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateMultiPassMasterNode.cs" initialLine="2033">
+            <startOffsets>
+              <option value="67242" />
+            </startOffsets>
+            <endOffsets>
+              <option value="67380" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPassMasterNode.cs</url>
+          <line>2031</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateMultiPassMasterNode.cs" initialLine="2031">
+            <startOffsets>
+              <option value="67026" />
+            </startOffsets>
+            <endOffsets>
+              <option value="67080" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMasterNode.cs</url>
+          <line>437</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateMasterNode.cs" initialLine="437">
+            <startOffsets>
+              <option value="14589" />
+            </startOffsets>
+            <endOffsets>
+              <option value="14684" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/MasterNodeDataCollector.cs</url>
+          <line>612</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\MasterNodeDataCollector.cs" initialLine="612">
+            <startOffsets>
+              <option value="21310" />
+            </startOffsets>
+            <endOffsets>
+              <option value="21345" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPassMasterNode.cs</url>
+          <line>2010</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateMultiPassMasterNode.cs" initialLine="2010">
+            <startOffsets>
+              <option value="65549" />
+            </startOffsets>
+            <endOffsets>
+              <option value="65589" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/PropertyNode.cs</url>
+          <line>1282</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\PropertyNode.cs" initialLine="1282">
+            <startOffsets>
+              <option value="38568" />
+            </startOffsets>
+            <endOffsets>
+              <option value="38606" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateDataCollector.cs</url>
+          <line>1974</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateDataCollector.cs" initialLine="1974">
+            <startOffsets>
+              <option value="81937" />
+            </startOffsets>
+            <endOffsets>
+              <option value="81976" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPassMasterNode.cs</url>
+          <line>1809</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateMultiPassMasterNode.cs" initialLine="1809">
+            <startOffsets>
+              <option value="57198" />
+            </startOffsets>
+            <endOffsets>
+              <option value="57264" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateDataCollector.cs</url>
+          <line>102</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateDataCollector.cs" initialLine="102">
+            <startOffsets>
+              <option value="3629" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3700" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/MasterNodeDataCollector.cs</url>
+          <line>664</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\MasterNodeDataCollector.cs" initialLine="664">
+            <startOffsets>
+              <option value="23251" />
+            </startOffsets>
+            <endOffsets>
+              <option value="23278" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/MasterNodeDataCollector.cs</url>
+          <line>685</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\MasterNodeDataCollector.cs" initialLine="685">
+            <startOffsets>
+              <option value="23899" />
+            </startOffsets>
+            <endOffsets>
+              <option value="23934" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPassMasterNode.cs</url>
+          <line>1784</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateMultiPassMasterNode.cs" initialLine="1784">
+            <startOffsets>
+              <option value="56451" />
+            </startOffsets>
+            <endOffsets>
+              <option value="56534" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPassMasterNode.cs</url>
+          <line>1792</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateMultiPassMasterNode.cs" initialLine="1792">
+            <startOffsets>
+              <option value="56746" />
+            </startOffsets>
+            <endOffsets>
+              <option value="56829" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPassMasterNode.cs</url>
+          <line>1777</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateMultiPassMasterNode.cs" initialLine="1777">
+            <startOffsets>
+              <option value="56262" />
+            </startOffsets>
+            <endOffsets>
+              <option value="56271" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPassMasterNode.cs</url>
+          <line>1780</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateMultiPassMasterNode.cs" initialLine="1780">
+            <startOffsets>
+              <option value="56306" />
+            </startOffsets>
+            <endOffsets>
+              <option value="56385" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/MasterNodeDataCollector.cs</url>
+          <line>696</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\MasterNodeDataCollector.cs" initialLine="696">
+            <startOffsets>
+              <option value="24283" />
+            </startOffsets>
+            <endOffsets>
+              <option value="24284" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/MasterNode.cs</url>
+          <line>537</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\MasterNode.cs" initialLine="537">
+            <startOffsets>
+              <option value="16295" />
+            </startOffsets>
+            <endOffsets>
+              <option value="16358" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/PropertyNode.cs</url>
+          <line>1244</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\PropertyNode.cs" initialLine="1244">
+            <startOffsets>
+              <option value="37162" />
+            </startOffsets>
+            <endOffsets>
+              <option value="37236" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateDataCollector.cs</url>
+          <line>1994</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateDataCollector.cs" initialLine="1994">
+            <startOffsets>
+              <option value="82804" />
+            </startOffsets>
+            <endOffsets>
+              <option value="82874" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/MasterNodeDataCollector.cs</url>
+          <line>890</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\MasterNodeDataCollector.cs" initialLine="890">
+            <startOffsets>
+              <option value="30760" />
+            </startOffsets>
+            <endOffsets>
+              <option value="30823" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/PropertyNode.cs</url>
+          <line>1240</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\PropertyNode.cs" initialLine="1240">
+            <startOffsets>
+              <option value="37020" />
+            </startOffsets>
+            <endOffsets>
+              <option value="37140" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/MasterNodeDataCollector.cs</url>
+          <line>862</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Assets\Plugins\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\MasterNodeDataCollector.cs" initialLine="862">
+            <startOffsets>
+              <option value="29928" />
+            </startOffsets>
+            <endOffsets>
+              <option value="30004" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@9.0.0-preview.55/Editor/Generation/Processors/PropertyCollector.cs</url>
+          <line>177</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Library\PackageCache\com.unity.shadergraph@9.0.0-preview.55\Editor\Generation\Processors\PropertyCollector.cs" initialLine="177">
+            <startOffsets>
+              <option value="7873" />
+            </startOffsets>
+            <endOffsets>
+              <option value="7943" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@9.0.0-preview.55/Editor/Generation/Processors/PropertyCollector.cs</url>
+          <line>170</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\Hybrid_Lab\Library\PackageCache\com.unity.shadergraph@9.0.0-preview.55\Editor\Generation\Processors\PropertyCollector.cs" initialLine="170">
+            <startOffsets>
+              <option value="7618" />
+            </startOffsets>
+            <endOffsets>
+              <option value="7658" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
+        <watch expression="DotsDefinesList" language="C#" />
+        <watch expression="DotsPropertiesList" language="C#" />
+        <watch expression="UniformsList" language="C#" />
+        <watch expression="m_currentDataCollector.UniformsList" language="C#" />
+        <watch expression="m_passSelector.IsVisible( 1)" language="C#" />
+        <watch expression="dataCollector.GetHashCode()" language="C#" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
