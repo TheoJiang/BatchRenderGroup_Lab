@@ -31,7 +31,7 @@ public unsafe class BatchRendererGroupTest2 : MonoBehaviour
 
    }
 
-   private int arrayLength = 10;
+   public int arrayLength = 10;
 
    private void Start()
    {
@@ -62,18 +62,29 @@ public unsafe class BatchRendererGroupTest2 : MonoBehaviour
       var rot = new quaternion[arrayLength* arrayLength];
       var scale = new float3[arrayLength* arrayLength];
 
-      for (int j = 0; j < arrayLength; j++)
+      // for (int j = 0; j < arrayLength; j++)
+      // {
+      //
+      //    for (int i = 0; i < arrayLength; i++)
+      //    {
+      //       pos[i] = new float3(i*2,j*2,j*2);
+      //       rot[i] = quaternion.identity;
+      //       scale[i] = new float3(1,1,1);
+      //    }
+      //    AddBatch(0,arrayLength* arrayLength,pos,rot,scale);
+      // }
+
       {
       
          for (int i = 0; i < arrayLength; i++)
          {
-            pos[i] = new float3(i*2,j*2,j*2);
+            pos[i] = new float3(i,i,i);
             rot[i] = quaternion.identity;
             scale[i] = new float3(1,1,1);
+            AddBatch(0,1,pos,rot,scale);
          }
-         AddBatch(0,arrayLength* arrayLength,pos,rot,scale);
       }
-
+      
       z++;
    }
 
@@ -172,16 +183,23 @@ public unsafe class BatchRendererGroupTest2 : MonoBehaviour
 
       MaterialPropertyBlock block = new MaterialPropertyBlock();
   
-      var colors = new NativeArray<Vector4>(count,Allocator.Temp);
+      var colors = new NativeArray<Vector4>(2,Allocator.Temp);
 
-      for (int i = 0; i < count; i+=5)
+      // for (int i = 0; i < count; i+=5)
+      // {
+      //    colors[i] = Color.cyan;
+      //    colors[i +1] = Color.red;
+      //    colors[i +2] = Color.yellow;
+      //    colors[i +3] = Color.blue;
+      //    colors[i +4] = Color.green;
+      // }
+      
+      for (int i = 0; i < 2; i++)
       {
-         colors[i] = Color.cyan;
-         colors[i +1] = Color.red;
-         colors[i +2] = Color.yellow;
-         colors[i +3] = Color.blue;
-         colors[i +4] = Color.green;
+         colors[i] = new Color(1, 0,0,1) * (i + 1) / 2;
+
       }
+      
       
     //  colors[0] =  ( new Vector4( Color.red.r, Color.red.g, Color.red.b, Color.red.a));
    //   colors[1] = ( new Vector4( Color.yellow.r, Color.yellow.g, Color.yellow.b, Color.yellow.a));
@@ -189,31 +207,32 @@ public unsafe class BatchRendererGroupTest2 : MonoBehaviour
       
 
       batchIndex = _batchRendererGroup.AddBatch(_mesh.mesh, 0, _material, 0, ShadowCastingMode.On, true, false,
-         new Bounds(Vector3.zero, 1000 * Vector3.one), count, null, null);
+         new Bounds(Vector3.zero, 1000 * Vector3.one), 2, null, null);
       
       
       int colorArrayIndex = Shader.PropertyToID("_Color");
       
-      block.SetVectorArray("_Color", new []{colors[batchIndex]});
-      _batchRendererGroup.SetInstancingData(batchIndex,count, block);
+      block.SetVectorArray("_Color", new []{colors[0]});
+      _batchRendererGroup.SetInstancingData(batchIndex,2, block);
 
 
    //   colors.Dispose();
     
       var matrices = _batchRendererGroup.GetBatchMatrices(batchIndex);
-      for (int i = 0; i < count; i++)
+      for (int i = 0; i < 2; i++)
       {
-         matrices[i] = float4x4.TRS(pos[i], rot[i], scale[i]);
+         matrices[i] = float4x4.TRS(pos[0], rot[0], scale[0]);
         
          var aabb = AABB.Transform(matrices[i], localbound);
          _cullDic.Add(batchIndex, new CullData()
          {
             bound =  aabb,
-            position = pos[i],
+            position = pos[0],
             minDistance = 0,
             maxDistance = 100
          });
       }
+      matrices[1] = float4x4.TRS(new Vector3(2, 1,1), rot[0], scale[0]);
    }
    
    private void OnDestroy()

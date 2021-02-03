@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b133c1c1-7bef-48fe-98dd-890eda25114a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Examples/Assets/Materials/URP/Universal BrushedMetal.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Examples/Assets/Materials/URP/Universal BrushedMetal.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Examples/Assets/Materials/URP/Universal CalibrationFloor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Examples/Assets/Materials/URP/Universal CalibrationFloor.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Examples/Assets/Materials/URP/Universal Rubber.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AmplifyShaderEditor/Examples/Assets/Materials/URP/Universal Rubber.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/LitSG.shadergraph" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/LitSG.shadergraph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/New Material 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/New Material 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/New Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/New Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/New Shader Graph.shadergraph" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/New Shader Graph.shadergraph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/NewUnlitShader.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/NewUnlitShader.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/RenderBatchGroup Test Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/RenderBatchGroup Test Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/SG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/SG.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/SG.shadergraph" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/SG.shadergraph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Shader_BuidingPBR.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Shader_BuidingPBR.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Shader_BuidingPBR.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Shader_BuidingPBR.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Shader_BuildingAO.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Shader_BuildingAO.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/TestMulti.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/TestMulti.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Ulit.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Ulit.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BatchRenderGroup_Lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BatchRenderGroup_Lab/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BatchRendererGroupTest2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BatchRendererGroupTest2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineAsset_Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineAsset_Renderer.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +18,7 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/BatchRendererGroupTest2_.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BatchRendererGroupTest2.cs" />
     </changedPaths>
   </component>
@@ -99,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612323675193</updated>
-      <workItem from="1612323713748" duration="7443000" />
+      <workItem from="1612323713748" duration="9221000" />
     </task>
     <servers />
   </component>
@@ -116,16 +83,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/BatchRendererGroupTest2.cs</url>
-          <line>196</line>
-          <properties documentPath="C:\Users\xindong\WorkLab\BRG\BatchRenderGroup_Lab\Assets\Scripts\BatchRendererGroupTest2.cs" initialLine="196" containingFunctionPresentation="method 'AddBatch'">
+          <line>234</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\BRG\BatchRenderGroup_Lab\Assets\Scripts\BatchRendererGroupTest2.cs" initialLine="234" containingFunctionPresentation="method 'AddBatch'">
             <startOffsets>
-              <option value="5430" />
+              <option value="6701" />
             </startOffsets>
             <endOffsets>
-              <option value="5480" />
+              <option value="6767" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
