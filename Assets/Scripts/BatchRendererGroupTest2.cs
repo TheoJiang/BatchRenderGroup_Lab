@@ -71,7 +71,6 @@ public unsafe class BatchRendererGroupTest2 : MonoBehaviour
             rot[i] = quaternion.identity;
             scale[i] = new float3(1,1,1);
          }
-         
          AddBatch(0,arrayLength* arrayLength,pos,rot,scale);
       }
 
@@ -95,11 +94,12 @@ public unsafe class BatchRendererGroupTest2 : MonoBehaviour
          rot[i] = quaternion.identity;
          scale[i] = new float3(1,1,1);
       }
-      
+
+
       _batchRendererGroup.SetInstancingData(updateIndex,4,null);
       
       
-      int colorArrayIndex = Shader.PropertyToID("_Color_Array");
+      int colorArrayIndex = Shader.PropertyToID("_Color");
     
       float* nativePtr = null;
     
@@ -113,8 +113,14 @@ public unsafe class BatchRendererGroupTest2 : MonoBehaviour
       colors[2] = ( new Vector4( Color.yellow.r, Color.yellow.g, Color.yellow.b, Color.yellow.a));
       colors[0] = ( new Vector4( Color.blue.r, Color.blue.g, Color.blue.b, Color.blue.a));
       colors[3] = Color.cyan;
-      UnsafeUtility.MemCpy(nativePtr,  (float*)colors.GetUnsafePtr(), UnsafeUtility.SizeOf<float4>() * 4);
       
+      MaterialPropertyBlock mpb = new MaterialPropertyBlock();
+      mpb.SetVectorArray("_Color", colors.ToArray());
+      
+      _batchRendererGroup.SetInstancingData(updateIndex,4,mpb);
+
+      
+      // UnsafeUtility.MemCpy(nativePtr,  (float*)colors.GetUnsafePtr(), UnsafeUtility.SizeOf<float4>() * 4);
       var matrices = _batchRendererGroup.GetBatchMatrices(updateIndex);
       
       
@@ -170,7 +176,7 @@ public unsafe class BatchRendererGroupTest2 : MonoBehaviour
 
       for (int i = 0; i < count; i+=5)
       {
-         colors[i] = Color.white;
+         colors[i] = Color.cyan;
          colors[i +1] = Color.red;
          colors[i +2] = Color.yellow;
          colors[i +3] = Color.blue;
@@ -181,24 +187,16 @@ public unsafe class BatchRendererGroupTest2 : MonoBehaviour
    //   colors[1] = ( new Vector4( Color.yellow.r, Color.yellow.g, Color.yellow.b, Color.yellow.a));
     //  colors[2] = ( new Vector4( Color.blue.r, Color.blue.g, Color.blue.b, Color.blue.a));
       
-      block.SetVectorArray("_Color", colors.ToArray());
 
       batchIndex = _batchRendererGroup.AddBatch(_mesh.mesh, 0, _material, 0, ShadowCastingMode.On, true, false,
          new Bounds(Vector3.zero, 1000 * Vector3.one), count, null, null);
       
-   
-  //   _batchRendererGroup.SetInstancingData(batchIndex,count,block);
-  
-      int colorArrayIndex = Shader.PropertyToID("_Color_Array");
-    
-      float* nativePtr = null;
-    
-      var arr4 = _batchRendererGroup.GetBatchVectorArray(batchIndex,colorArrayIndex);
       
-      nativePtr = (float*)arr4.GetUnsafePtr();
+      int colorArrayIndex = Shader.PropertyToID("_Color");
       
-      UnsafeUtility.MemCpy(nativePtr,  (float*)colors.GetUnsafePtr(), UnsafeUtility.SizeOf<float4>() * count);
-     
+      block.SetVectorArray("_Color", new []{colors[batchIndex]});
+      _batchRendererGroup.SetInstancingData(batchIndex,count, block);
+
 
    //   colors.Dispose();
     
