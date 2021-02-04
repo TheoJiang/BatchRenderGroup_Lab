@@ -15,6 +15,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5098EAD8-4A76-417A-BBEA-9A0D782D9E06/a8/4fd413e4/BatchRendererGroup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5098EAD8-4A76-417A-BBEA-9A0D782D9E06/c4/254fd030/MaterialPropertyBlock.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -48,10 +49,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="7760">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="48304">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="7760" />
+      <option name="pid" value="48304" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -66,7 +67,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612323675193</updated>
-      <workItem from="1612323713748" duration="9221000" />
+      <workItem from="1612323713748" duration="11343000" />
+      <workItem from="1612407157406" duration="5599000" />
     </task>
     <servers />
   </component>
@@ -83,16 +85,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/BatchRendererGroupTest2.cs</url>
-          <line>234</line>
-          <properties documentPath="C:\Users\xindong\WorkLab\BRG\BatchRenderGroup_Lab\Assets\Scripts\BatchRendererGroupTest2.cs" initialLine="234" containingFunctionPresentation="method 'AddBatch'">
+          <line>211</line>
+          <properties documentPath="C:\Users\xindong\WorkLab\BRG\BatchRenderGroup_Lab\Assets\Scripts\BatchRendererGroupTest2.cs" initialLine="211" containingFunctionPresentation="method 'AddBatch'">
             <startOffsets>
-              <option value="6701" />
+              <option value="5994" />
             </startOffsets>
             <endOffsets>
-              <option value="6767" />
+              <option value="6057" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
