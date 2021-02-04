@@ -32,7 +32,7 @@ public unsafe class BatchRendererGroupTest2 : MonoBehaviour
 
    }
 
-   private int arrayLength = 3;
+   private int arrayLength = 10;
 
    private void Start()
    {
@@ -86,7 +86,7 @@ public unsafe class BatchRendererGroupTest2 : MonoBehaviour
          pos[0] = new float3(i*2,0,0);
          rot[0] = quaternion.identity;
          scale[0] = new float3(1,1,1);
-         AddBatch(0,1,pos,rot,scale);
+         AddBatch(0,arrayLength,pos,rot,scale);
       }
       
       z++;
@@ -193,6 +193,8 @@ public unsafe class BatchRendererGroupTest2 : MonoBehaviour
          colors.Add(new Vector4(UnityEngine.Random.Range(0f,1f), UnityEngine.Random.Range(0f, 1f), UnityEngine.Random.Range(0f, 1f), UnityEngine.Random.Range(0f, 1f)));
       }
       
+
+
       int colorArrayIndex = Shader.PropertyToID("_Color");
       
       block.SetVectorArray(colorArrayIndex, colors.ToArray());
