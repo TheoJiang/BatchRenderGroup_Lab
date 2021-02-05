@@ -535,6 +535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mesh: {fileID: 1333638265}
   _material: {fileID: 2100000, guid: bf855d839fbe2d2459573d059d63a776, type: 2}
+  parent: {fileID: 789217016}
 --- !u!114 &2051990012
 MonoBehaviour:
   m_ObjectHideFlags: 0

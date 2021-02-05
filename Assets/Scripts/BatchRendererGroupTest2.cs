@@ -21,6 +21,7 @@ public unsafe class BatchRendererGroupTest2 : MonoBehaviour
 
    private BatchRendererGroup _batchRendererGroup;
 
+   public GameObject parent;
   // private NativeArray<CullData> _cullDatas;
    private NativeMultiHashMap<int,CullData> _cullDic;
    struct CullData
@@ -86,7 +87,14 @@ public unsafe class BatchRendererGroupTest2 : MonoBehaviour
          pos[0] = new float3(i*2,0,0);
          rot[0] = quaternion.identity;
          scale[0] = new float3(1,1,1);
-         AddBatch(0,arrayLength,pos,rot,scale);
+         if (i % 2 == 0)
+         {
+            AddBatch(0,arrayLength,pos,rot,scale,  28);
+         }
+         else
+         {
+            AddBatch(0,arrayLength,pos,rot,scale,  29);
+         }
       }
       
       z++;
@@ -179,7 +187,7 @@ public unsafe class BatchRendererGroupTest2 : MonoBehaviour
 
    private int batchIndex = 0;
    
-   void AddBatch(int offset, int count, float3[] pos, quaternion[] rot, float3[] scale)
+   void AddBatch(int offset, int count, float3[] pos, quaternion[] rot, float3[] scale, int layer)
    {
       AABB localbound;
       localbound.Center = this._mesh.mesh.bounds.center;
@@ -199,8 +207,9 @@ public unsafe class BatchRendererGroupTest2 : MonoBehaviour
       
       block.SetVectorArray(colorArrayIndex, colors.ToArray());
 
-      batchIndex = _batchRendererGroup.AddBatch(_mesh.mesh, 0, _material, 0, ShadowCastingMode.On, true, false,
-         new Bounds(Vector3.zero, 1000 * Vector3.one), count, block, null);
+      
+      batchIndex = _batchRendererGroup.AddBatch(_mesh.mesh, 0, _material, layer, ShadowCastingMode.On, true, false,
+         new Bounds(Vector3.zero, 1000 * Vector3.one), count, block, parent);
       
       _batchRendererGroup.SetInstancingData(batchIndex,count, block);
 
